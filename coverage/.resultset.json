@@ -1,0 +1,54 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/chiel/code/apps/sample-shop/app/models/category.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/home/chiel/code/apps/sample-shop/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/chiel/code/apps/sample-shop/app/models/product.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/home/chiel/code/apps/sample-shop/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/chiel/code/apps/sample-shop/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/chiel/code/apps/sample-shop/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/chiel/code/apps/sample-shop/app/controllers/application_controller.rb": [
+        0,
+        0
+      ],
+      "/home/chiel/code/apps/sample-shop/app/helpers/application_helper.rb": [
+        0,
+        0
+      ],
+      "/home/chiel/code/apps/sample-shop/app/jobs/application_job.rb": [
+        0,
+        0
+      ]
+    },
+    "timestamp": 1548527107
+  }
+}
