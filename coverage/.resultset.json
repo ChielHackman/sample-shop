@@ -1,6 +1,29 @@
 {
   "RSpec": {
     "coverage": {
+      "/home/chiel/code/apps/sample-shop/app/controllers/categories_controller.rb": [
+        1,
+        1,
+        3,
+        null,
+        null,
+        1,
+        4,
+        4,
+        null,
+        null
+      ],
+      "/home/chiel/code/apps/sample-shop/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        7,
+        null,
+        null
+      ],
       "/home/chiel/code/apps/sample-shop/app/models/category.rb": [
         1,
         1,
@@ -36,7 +59,7 @@
         0,
         0
       ],
-      "/home/chiel/code/apps/sample-shop/app/controllers/application_controller.rb": [
+      "/home/chiel/code/apps/sample-shop/app/helpers/categories_helper.rb": [
         0,
         0
       ],
@@ -49,6 +72,6 @@
         0
       ]
     },
-    "timestamp": 1548527107
+    "timestamp": 1548539495
   }
 }

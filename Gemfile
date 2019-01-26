@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'haml-rails', '~> 1.0'
 gem 'bootstrap', '~> 4.2.1'
 gem 'jquery-rails'
-
+gem 'material_icons'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -45,6 +45,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.8'
+  gem 'rails-controller-testing'
 
 end
 
