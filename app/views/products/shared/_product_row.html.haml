@@ -1,0 +1,23 @@
+.row.border.shadow.my-4.mx-2
+  .col-lg-3.col-md-6.p-2
+    %img.rounded{src: '/images/sample-product.jpg', width: '100%', height: '100%'}
+  .col-lg-9.col-md-6
+    .row
+      .col-lg-9.col-md-12.p-2
+        %h2= product.name
+        %p.mb-0
+          = product.description.truncate(116)
+          %a{href: "#"} Read more...
+      .col-lg-3.col-md-12.p-2
+        .row
+          .col-md-12.col-sm-6.col-12
+            .input-group
+              .input-group-prepend
+                %span.input-group-text= material_icon.remove
+              %input.form-control{type: 'number', value: 1, min: 1}
+              .input-group-append
+                %span.input-group-text= material_icon.add
+          .col-md-12.col-sm-6.col-12
+            %button.btn.btn-primary.d-flex.w-100.justify-content-center.mt-3.mt-sm-0.mt-md-3.mt-lg-3
+              = material_icon.add_shopping_cart
+              %strong ADD

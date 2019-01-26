@@ -1,0 +1,3 @@
+%h1.mt-3.mx-2= @category.name
+- @products.each do |product|
+  = render 'products/shared/product_row', product: product
