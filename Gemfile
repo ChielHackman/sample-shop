@@ -30,6 +30,7 @@ gem 'haml-rails', '~> 1.0'
 gem 'bootstrap', '~> 4.2.1'
 gem 'jquery-rails'
 gem 'material_icons'
+gem 'friendly_id', '~> 5.2.4'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

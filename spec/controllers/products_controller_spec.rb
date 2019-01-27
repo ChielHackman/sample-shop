@@ -6,17 +6,17 @@ RSpec.describe ProductsController, type: :controller do
     let(:product) { Product.create(category: category, name: 'Smart TV', price: 425) }
 
     it "assigns @product" do
-      get :show, params: { id: product.id }
+      get :show, params: { id: product.id, category_id: category.id }
       expect(assigns(:product)).to eq(product)
     end
 
     it "renders the show template" do
-      get :show, params: { id: product.id }
+      get :show, params: { id: product.id, category_id: category.id }
       expect(response).to render_template("show")
     end
 
     it "has a 200 status code" do
-      get :show, params: { id: product.id }
+      get :show, params: { id: product.id, category_id: category.id }
       expect(response.status).to eq(200)
     end
   end
