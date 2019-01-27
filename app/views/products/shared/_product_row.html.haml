@@ -6,7 +6,7 @@
       .col-lg-9.col-md-12.p-2
         %h2= product.name
         %p.mb-0
-          = product.description.truncate(116)
+          = product.description.truncate(116) unless product.description.nil?
           %a{href: "#"} Read more...
       .col-lg-3.col-md-12.p-2
         .row
