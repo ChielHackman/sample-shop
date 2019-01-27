@@ -35,6 +35,8 @@
         1,
         1,
         1,
+        1,
+        1,
         null
       ],
       "/home/chiel/code/apps/sample-shop/app/models/application_record.rb": [
@@ -83,6 +85,6 @@
         0
       ]
     },
-    "timestamp": 1548540698
+    "timestamp": 1548596175
   }
 }
