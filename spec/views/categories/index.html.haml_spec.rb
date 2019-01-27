@@ -14,7 +14,9 @@ describe "categories/index.html.haml" do
       render
 
       expect(rendered).to match /Smart TV/
+      expect(rendered).to match /425/
       expect(rendered).to match /Smart Phone/
+      expect(rendered).to match /299.99/
     end
   end
 end
